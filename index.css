@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero{
+    min-height: 500px;
+    background-image: url(./bg\ sacrod.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #FFD700;
+    border: 1px solid #FFD700;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 7px;
+    font-size: larger;
+    color: aliceblue;
+    box-shadow: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    box-shadow: 0 8px 20px;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.hero li:last-child {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0;
+}
+
+.hero2 .btn {
+    width: auto;
+    max-width: 150px;
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #FFD700;
+}
+
+.hero-intro{
+    color: aliceblue;
+    padding: 50px;
+    font-size: 4vh;
+}
+
+.line1, .line2{
+    position: absolute;
+    margin-top: 10px;
+}
+
+.line1{
+    width: 100%;
+    max-width: 15%;
+    border-bottom: 1px solid #FFD700;
+}
+
+.line2{
+    width: 100%;
+    max-width: 10%;
+    margin-left: 15.5%;
+    border-bottom: 1px solid #b4ab77;
+}
+
+.tea{
+    font-size: large;
+    margin-top: 30px;
+}
+
+.sn{
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    background-color: #FFD700;
+    color: rgb(238, 234, 234);
+    border-radius: 7px;
+    margin-top: 24px;
+    cursor: pointer;
+    box-shadow: 15px;
+    transition: all 0.3s ease;
+}
+
+.sn a{
+    text-decoration: none;
+    color: rgb(238, 234, 234);
+}
+
+.sn:hover{
+    box-shadow: 0 8px 20px;
+    transform: translateY(-5px);
+}
+
+header{
+    position: relative;
+}
+
+.sacord{
+    position: absolute;
+    top: 28vh;
+    width: 33%;
+    margin-left: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.fp{
+    text-align: center;
+    border-bottom: 1px;
+}
+
+.line3{
+    position: absolute;
+    width: 10%;
+    margin-left: 39.7%;
+    border: 1px solid black;
+}
+
+.fpl{
+    padding: 30px;
+}
+
+.adire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.adire-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+}
+
+.adire1{
+    width: 100%;
+    max-width: 90%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.adire2{
+    width: 100%;
+    max-width: 90%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.adi {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn1{
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid green;
+    height: 35px;
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.wcs{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sec2{
+    padding: 30px;
+}
+
+.feature{
+    width: 100%;
+    max-height: 20vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.line4{
+    position: absolute;
+    width: 15%;
+    margin-left: 39.7%;
+    border: 1px solid #FFD700;
+}
+
+/* ===================== */
+/* FOOTER                */
+/* ===================== */
+
+footer {
+    padding: 24px 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ft1, .ft2, .ft3 {
+    flex: 1 1 150px;
+    min-width: 120px;
+}
+
+.sa {
+    color: #FFD700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.line5 {
+    width: 60%;
+    max-width: 80px;
+    border: 1px solid #FFD700;
+    margin-top: 15px;
+    position: relative;
+}
+
+.ft2 p, .ft3 p {
+    color: white;
+}
+
+.line6, .line7 {
+    width: 80%;
+    max-width: 120px;
+    margin-top: 5px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.wa {
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 1.4rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons i:hover {
+    color: #FFD700;
+    transform: scale(1.2);
+}
+
+
+/* Tablets / large phones */
+@media (max-width: 768px) {
+    .hero-intro h1{
+        font-size: 3vh;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-intro h6.tea {
+        font-size: 1rem;
+    }
+
+    .sn {
+        width: 80px;
+        height: 28px;
+        font-size: 0.9rem;
+    }
+
+    .adire {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .adire-card {
+        width: 90%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .adire-card img {
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero2 .btn {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    /* Footer stacks */
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 30px 24px;
+    }
+
+    .ft1, .ft2, .ft3 {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Phones / small devices */
+@media (max-width: 480px) {
+    .hero-intro h1 {
+        font-size: 2.5vh;
+        padding: 10px;
+    }
+
+    .hero-intro h6.tea {
+        font-size: 0.9rem;
+    }
+
+    .sn {
+        width: 70px;
+        height: 25px;
+        font-size: 0.8rem;
+    }
+
+    .adire-card {
+        width: 95%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .adire-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature {
+        width: 90%;
+        max-height: 20vh;
+        margin: 0 auto;
+    }
+
+    nav ul li:last-child {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    .hero-intro {
+        padding: 10px;
+    }
+
+    .sacord{
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 24px 16px;
+    }
+}
